@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Preciounitario:</strong>
+  <%= @sale_detail.preciounitario %>
+</p>
+
+<p>
+  <strong>Cantidad:</strong>
+  <%= @sale_detail.cantidad %>
+</p>
+
+<p>
+  <strong>Importe:</strong>
+  <%= @sale_detail.importe %>
+</p>
+
+<p>
+  <strong>Sale:</strong>
+  <%= @sale_detail.sale %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @sale_detail.product %>
+</p>
+
+<%= link_to 'Edit', edit_sale_detail_path(@sale_detail) %> |
+<%= link_to 'Back', sale_details_path %>
